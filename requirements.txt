@@ -1,0 +1,5 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.5.1+cu101
+scikit-learn==0.22.0
+pandas
+seaborn

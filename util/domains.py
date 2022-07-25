@@ -1,0 +1,1 @@
+DOMAINS = ["attraction", "hotel", "restaurant", "train", "taxi", "hospital", "police"]
