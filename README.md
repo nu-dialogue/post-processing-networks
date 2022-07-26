@@ -1,7 +1,7 @@
 # Post-processing Networks
-This is the implementation of SIGdial 2022 paper:
+This is the implementation of SIGDIAL 2022 paper:
 
-Post-processing Networks: Method for Optimizing Pipeline Task-oriented Dialogue Systems using Reinforcement Learning. [[arXiv](https://example.com)]
+Post-processing Networks: Method for Optimizing Pipeline Task-oriented Dialogue Systems using Reinforcement Learning. [[arXiv](https://arxiv.org/abs/2207.12185)]
 
 ## Setup
 Python == 3.7
@@ -97,3 +97,13 @@ python main.py \
     --nlg_name template 
 ```
 The result and dialogue histories in the evaluation are saved in directory `outputs/test_single/2022-0707-bert-rule-mle-template`. See `test_single_results_tables/mean_.csv` for summary scores of the sytem's performance.
+
+## Citation
+```
+@article{ohashi2021post,
+  title={Post-processing Networks: Method for Optimizing Pipeline Task-oriented Dialogue Systems using Reinforcement Learning},
+  author={Ohashi, Atsumoto and Higashinaka, Ryuichiro},
+  journal={arXiv preprint arXiv:2207.12185},
+  year={2022}
+}
+```
